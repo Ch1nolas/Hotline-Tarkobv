@@ -2,12 +2,12 @@
 Proyecto de videojuego mobile 
 
 #### Escenarios
-** Factory Customs Interchange ***
+<strong>Factory Customs Interchange</strong>
 
 #### Personajes
-** Jugador: ** Bear/ User, se podrá elegir durante el tutorial
+<strong>Jugador:</strong> Bear/ User, se podrá elegir durante el tutorial
 
 #### Enemigos
-** Enemigos básicos: ** Scavs, habrán varias versiones de los mismos
+<strong>Enemigos básicos</strong> Scavs, habrán varias versiones de los mismos
 
 ##### Jefes de mapa: 
