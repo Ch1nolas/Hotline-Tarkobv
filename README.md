@@ -11,4 +11,6 @@ Proyecto de videojuego mobile
 > <strong>Enemigos básicos</strong> Scavs, habrán varias versiones de los mismos
 
 #### Jefes de mapa: 
-![Tagilla](https://ih1.redbubble.net/image.2458981889.2055/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg)
+
+<img src="https://github.com/Ch1nolas/Hotline-Tarkov/blob/main/tagilla2.jpg" alt="Tagilla" width="25px" heigh="25px">
+
