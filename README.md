@@ -12,7 +12,7 @@ Proyecto de videojuego mobile
 
 #### Jefes de mapa: 
 
-<div>
+<div {style: display:"flex"; justify-content:"space-between"; }>
   <div>
     <img src="https://github.com/Ch1nolas/Hotline-Tarkov/blob/main/tagilla2.jpg" alt="Tagilla" width="100px" heigh="100px">
     <h6><strong>Tagilla</strong></h6>
