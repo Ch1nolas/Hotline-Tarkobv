@@ -12,5 +12,17 @@ Proyecto de videojuego mobile
 
 #### Jefes de mapa: 
 
-<img src="https://github.com/Ch1nolas/Hotline-Tarkov/blob/main/tagilla2.jpg" alt="Tagilla" width="100px" heigh="100px">
-
+<div>
+  <div>
+    <img src="https://github.com/Ch1nolas/Hotline-Tarkov/blob/main/tagilla2.jpg" alt="Tagilla" width="100px" heigh="100px">
+    <h6><strong>Tagilla</strong></h6>
+  </div>
+  <div>
+    <img src="https://github.com/Ch1nolas/Hotline-Tarkov/blob/main/killa.jpg" alt="Killa" width="100px" heigh="100px">
+    <h6><strong>Killa</strong></h6>
+  </div>
+  <div>
+    <img src="https://github.com/Ch1nolas/Hotline-Tarkov/blob/main/reshala.jpg" alt="Reshala" width="100px" heigh="100px">
+    <h6><strong>Reshala</strong></h6>
+  </div>
+</div>
