@@ -4,12 +4,30 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    Movement(){
-        _step = 0.6f;
-    }
-    public float _step { get;}
 
-    public void Move(Transform t, Vector3 p){
-        t.position = p;
+    [SerializeField] KeyCode _up;
+    [SerializeField] KeyCode _down;
+    [SerializeField] KeyCode _left;
+    [SerializeField] KeyCode _right;
+
+    [SerializeField] KeyCode _fire;
+
+    
+    public Rigidbody2D rb;
+    public float moveSpeed = 5f;
+
+    Vector2 movement;
+
+    void Start(){
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update(){
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+    }
+
+    void FixedUpdate(){
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }

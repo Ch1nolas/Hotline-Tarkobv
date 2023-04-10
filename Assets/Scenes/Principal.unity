@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1137138708}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
         m_MethodName: Right
         m_Mode: 1
@@ -739,7 +739,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1137138708}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
         m_MethodName: Fire
         m_Mode: 1
@@ -1066,9 +1066,7 @@ GameObject:
   - component: {fileID: 1137138706}
   - component: {fileID: 1137138705}
   - component: {fileID: 1137138704}
-  - component: {fileID: 1137138703}
   - component: {fileID: 1137138707}
-  - component: {fileID: 1137138708}
   - component: {fileID: 1137138710}
   - component: {fileID: 1137138711}
   m_Layer: 0
@@ -1078,23 +1076,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1137138703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137138702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ea4a57fad5d2354eb439bfc696e1553, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _up: 119
-  _down: 115
-  _left: 97
-  _right: 100
-  _fire: 323
 --- !u!114 &1137138704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1102,7 +1083,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137138702}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca3701547559dd646956312834d00075, type: 3}
   m_Name: 
@@ -1186,18 +1167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 773820f84163d1a48acb5a5a7ea89ac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1137138708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137138702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8da51e56d4f45aa49be0d16b5b265beb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  _up: 119
+  _down: 115
+  _left: 97
+  _right: 100
+  _fire: 323
+  rb: {fileID: 1137138711}
+  moveSpeed: 5
 --- !u!61 &1137138710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1244,7 +1220,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1301239863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,7 +1477,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1137138708}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
         m_MethodName: Down
         m_Mode: 1
@@ -2448,7 +2424,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1137138708}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
         m_MethodName: Up
         m_Mode: 1
@@ -3439,8 +3415,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944914846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0101, y: -0.108, z: 17}
-  m_LocalScale: {x: 1.486947, y: 1.6439862, z: 1}
+  m_LocalPosition: {x: 0.0101, y: -0.0784, z: 17}
+  m_LocalScale: {x: 1.5880871, y: 1.827691, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2088572258}
@@ -3615,9 +3591,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1137138708}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: Left
+      - m_Target: {fileID: 11500000, guid: 773820f84163d1a48acb5a5a7ea89ac3, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
