@@ -5,13 +5,6 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    [SerializeField] KeyCode _up;
-    [SerializeField] KeyCode _down;
-    [SerializeField] KeyCode _left;
-    [SerializeField] KeyCode _right;
-
-    [SerializeField] KeyCode _fire;
-
     
     public Rigidbody2D rb;
     public float moveSpeed = 5f;
@@ -28,6 +21,7 @@ public class Movement : MonoBehaviour
     }
 
     void FixedUpdate(){
+        
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
