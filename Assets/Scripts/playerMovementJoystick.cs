@@ -8,18 +8,17 @@ public class playerMovementJoystick : MonoBehaviour
 
     public MovementJoystick movementJoystick;
     public Rigidbody2D rb;
-    public float moveSpeed = 5f;
+    float moveSpeed = 250f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
 
-    void FixedUpdate(){
-        if(movementJoystick.joystickVec.y != 0){
-            rb.velocity = new Vector2(movementJoystick.joystickVec.x * moveSpeed, movementJoystick.joystickVec.y * moveSpeed);
-        } else {
-            rb.velocity = Vector2.zero;
-        }
+    void FixedUpdate()
+    {
+        //Debug.Log($"{movementJoystick.joystickVec.x},{movementJoystick.joystickVec.y}");
+        Vector2 vectorNew = new Vector2(movementJoystick.joystickVec.x * moveSpeed, movementJoystick.joystickVec.y * moveSpeed); 
+        rb.AddForce(vectorNew); 
     }
 }
