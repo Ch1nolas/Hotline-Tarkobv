@@ -227,6 +227,7 @@ UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_targetFrameRate
+UnityEngine.Application::get_identifier
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
 UnityEngine.Audio.AudioClipPlayable::InternalCreateAudioClipPlayable
@@ -443,6 +444,7 @@ UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::TryGetComponentInternal
+UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
 UnityEngine.GL::Begin
 UnityEngine.GL::End
@@ -587,6 +589,7 @@ UnityEngine.Input::get_mouseScrollDelta_Injected
 UnityEngine.Input::set_compositionCursorPos_Injected
 UnityEngine.Input::set_imeCompositionMode
 UnityEngine.Input::get_imeCompositionMode
+UnityEngine.IntegratedSubsystem::IsRunning
 UnityEngine.IntegratedSubsystem::SetHandle
 UnityEngine.IntegratedSubsystem::Start
 UnityEngine.IntegratedSubsystem::Stop
@@ -796,6 +799,7 @@ UnityEngine.PolygonCollider2D::get_pathCount
 UnityEngine.PolygonCollider2D::GetPath_Internal
 UnityEngine.Profiling.Profiler::get_enabled
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
+UnityEngine.QualitySettings::get_vSyncCount
 UnityEngine.QualitySettings::get_lodBias
 UnityEngine.QualitySettings::set_lodBias
 UnityEngine.QualitySettings::get_activeColorSpace

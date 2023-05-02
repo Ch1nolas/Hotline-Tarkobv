@@ -1199,6 +1199,10 @@ struct U3CU3Ec__DisplayClass6_0_1_t44CB69C17CCA3D82EEE90D3A4D29A7AF798486F1;
 struct U3CU3Ec__DisplayClass6_0_1_t03507AA9B63E29DBB1AC69485CC96FAA965A808A;
 // System.Linq.Enumerable/<>c__DisplayClass6_0`1<UnityEngine.Vector4>
 struct U3CU3Ec__DisplayClass6_0_1_t2A430DB9706A5E7B2D83D88C8285A3BE7A6DE92D;
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Double>
+struct U3CU3Ec__DisplayClass7_0_t20DF8C90174AF4E98FA51C4EDD23C6624A506D12;
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Object>
+struct U3CU3Ec__DisplayClass7_0_t9E564C368A3D317371947265AE92DDD42E6693CB;
 // System.Linq.Enumerable/<>c__DisplayClass7_0`3<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object,System.ValueTuple`2<System.Object,System.Object>>
 struct U3CU3Ec__DisplayClass7_0_3_t8FF294D3C6B8841DC6C84CAAE43BC6AAB7362E37;
 // System.Linq.Enumerable/<>c__DisplayClass7_0`3<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object,System.Guid>
@@ -1651,6 +1655,8 @@ struct Action_7_tF4A442D63CDA7B951D738D558308A83026F1F74B;
 struct Action_8_tFEF171D3408907A66B51D87C7B69C1E0095363C7;
 // System.Action`9<System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object>
 struct Action_9_tBDAE2424435D8D644A167BCD6EB0E6551861DDFB;
+// UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase`3<System.Object,System.Object,System.Object>
+struct AdaptivePerformanceSubsystemBase_3_tC5B76CDEB4C187C57E29DE16FA78DD53C40A1987;
 // Unity.VisualScripting.Add`1<System.Object>
 struct Add_1_tCFF7E239BEFEDCA80FA267F5AA539A9B8AF5588F;
 // Unity.VisualScripting.Add`1<System.Single>
@@ -1667,6 +1673,10 @@ struct Angle_1_t260FD36B3C0EDA05712BA8D0A96B063860655340;
 struct Angle_1_t49A2B8C64D4CACAEAA7889CA873A99A8851E41C9;
 // Unity.VisualScripting.Angle`1<UnityEngine.Vector3>
 struct Angle_1_t407EFE9A334631BC879B3A169C4F8CF14173B719;
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Double>
+struct AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A;
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Object>
+struct AsyncValue_1_tC5421C757AA1AAD9A26CFE04EDB3F0A123547AE3;
 // UnityEngine.UIElements.UIR.BasicNode`1<UnityEngine.UIElements.UIR.TextureEntry>
 struct BasicNode_1_t7B4D545DCD6949B2E1C85D63DF038E44602F7DDB;
 // System.Comparison`1<System.Object>
@@ -1725,6 +1735,8 @@ struct EventUnit_1_t5C13FD5AB1AC89EB5728DEC96B1C738127B19849;
 struct Func_1_t22BD7B5F8DB687330688484631E4670ADE9A7C9D;
 // System.Func`1<Unity.VisualScripting.Recursion`1<Unity.VisualScripting.Flow/RecursionNode>>
 struct Func_1_tDDB7896D4A271F8D526A55B1B50800F31A40D6CB;
+// System.Func`1<System.Double>
+struct Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7;
 // System.Func`1<System.Object>
 struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4;
 // System.Func`2<System.Linq.IGrouping`2<System.Object,System.Object>,System.Object>
@@ -2255,6 +2267,8 @@ struct VisualElementU5BU5D_tCAE8038767BF0FBEE26B3470C0FC4AE60E5229DF;
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 // System.AsyncCallback
 struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncUpdater
+struct AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976;
 // UnityEngine.UIElements.BaseVisualElementPanel
 struct BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303;
 // System.Reflection.Binder
@@ -2355,6 +2369,8 @@ struct StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428;
 struct StyleValueCollection_t5ADC08D23E648FBE78F2C161494786E6C83E1377;
 // UnityEngine.UIElements.StyleVariableContext
 struct StyleVariableContext_tF74F2787CE1F6BEBBFBFF0771CF493AC9E403527;
+// UnityEngine.SubsystemsImplementation.SubsystemProvider
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // System.Type
@@ -2961,6 +2977,24 @@ struct U3CU3Ec__DisplayClass6_0_1_t2A430DB9706A5E7B2D83D88C8285A3BE7A6DE92D  : p
 	Func_2_t6F0E9D3F3FD9400677A87178B87ABAE9E0497DA9* ___predicate1_0;
 	// System.Func`2<TSource,System.Boolean> System.Linq.Enumerable/<>c__DisplayClass6_0`1::predicate2
 	Func_2_t6F0E9D3F3FD9400677A87178B87ABAE9E0497DA9* ___predicate2_1;
+};
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Double>
+struct U3CU3Ec__DisplayClass7_0_t20DF8C90174AF4E98FA51C4EDD23C6624A506D12  : public RuntimeObject
+{
+	// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<T> UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0::<>4__this
+	AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* ___U3CU3E4__this_0;
+	// System.Func`1<T> UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0::updateFunc
+	Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7* ___updateFunc_1;
+};
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Object>
+struct U3CU3Ec__DisplayClass7_0_t9E564C368A3D317371947265AE92DDD42E6693CB  : public RuntimeObject
+{
+	// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<T> UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0::<>4__this
+	AsyncValue_1_tC5421C757AA1AAD9A26CFE04EDB3F0A123547AE3* ___U3CU3E4__this_0;
+	// System.Func`1<T> UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0::updateFunc
+	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___updateFunc_1;
 };
 
 // System.Linq.Enumerable/<>c__DisplayClass7_0`3<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object,System.ValueTuple`2<System.Object,System.Object>>
@@ -4403,6 +4437,52 @@ struct U3Cget_deserializationDependenciesU3Ed__41_t0FF6ECD2B651AAB7084AE1A77635B
 	GraphNest_2_t809972B852D228243FC0FF238384E13D4D3924F5* ___U3CU3E4__this_3;
 };
 
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Double>
+struct AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A  : public RuntimeObject
+{
+	// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncUpdater UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updater
+	AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* ___updater_0;
+	// System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateHandle
+	int32_t ___updateHandle_1;
+	// System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::pendingUpdate
+	bool ___pendingUpdate_2;
+	// System.Func`1<T> UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateFunc
+	Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7* ___updateFunc_3;
+	// T UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::newValue
+	double ___newValue_4;
+	// System.Single UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateTimeDeltaSeconds
+	float ___updateTimeDeltaSeconds_5;
+	// System.Single UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateTimestamp
+	float ___updateTimestamp_6;
+	// T UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::<value>k__BackingField
+	double ___U3CvalueU3Ek__BackingField_7;
+	// System.Single UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::<changeTimestamp>k__BackingField
+	float ___U3CchangeTimestampU3Ek__BackingField_8;
+};
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Object>
+struct AsyncValue_1_tC5421C757AA1AAD9A26CFE04EDB3F0A123547AE3  : public RuntimeObject
+{
+	// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncUpdater UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updater
+	AsyncUpdater_t723A6C592E8D827601A39F38D588CF80812FE976* ___updater_0;
+	// System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateHandle
+	int32_t ___updateHandle_1;
+	// System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::pendingUpdate
+	bool ___pendingUpdate_2;
+	// System.Func`1<T> UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateFunc
+	Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___updateFunc_3;
+	// T UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::newValue
+	RuntimeObject* ___newValue_4;
+	// System.Single UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateTimeDeltaSeconds
+	float ___updateTimeDeltaSeconds_5;
+	// System.Single UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::updateTimestamp
+	float ___updateTimestamp_6;
+	// T UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::<value>k__BackingField
+	RuntimeObject* ___U3CvalueU3Ek__BackingField_7;
+	// System.Single UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1::<changeTimestamp>k__BackingField
+	float ___U3CchangeTimestampU3Ek__BackingField_8;
+};
+
 // System.Collections.Concurrent.ConcurrentDictionary`2<System.Object,System.Object>
 struct ConcurrentDictionary_2_tF598E45B2A3ECB23FD311D829FB0AB32B1201ACF  : public RuntimeObject
 {
@@ -4869,6 +4949,15 @@ struct String_t  : public RuntimeObject
 	Il2CppChar ____firstChar_5;
 };
 
+// UnityEngine.SubsystemsImplementation.SubsystemWithProvider
+struct SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242  : public RuntimeObject
+{
+	// System.Boolean UnityEngine.SubsystemsImplementation.SubsystemWithProvider::<running>k__BackingField
+	bool ___U3CrunningU3Ek__BackingField_0;
+	// UnityEngine.SubsystemsImplementation.SubsystemProvider UnityEngine.SubsystemsImplementation.SubsystemWithProvider::<providerBase>k__BackingField
+	SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455* ___U3CproviderBaseU3Ek__BackingField_1;
+};
+
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -5149,6 +5238,15 @@ struct StyleDataRef_1_t9CB834B90E638D92A3BE5123B0D3989697AA87FC
 {
 	// UnityEngine.UIElements.StyleDataRef`1/RefCounted<T> UnityEngine.UIElements.StyleDataRef`1::m_Ref
 	RefCounted_t812D790A2C787F18230F9234F6C9B84D4AC1A85A* ___m_Ref_0;
+};
+
+// UnityEngine.SubsystemsImplementation.SubsystemWithProvider`3<System.Object,System.Object,System.Object>
+struct SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893  : public SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242
+{
+	// TSubsystemDescriptor UnityEngine.SubsystemsImplementation.SubsystemWithProvider`3::<subsystemDescriptor>k__BackingField
+	RuntimeObject* ___U3CsubsystemDescriptorU3Ek__BackingField_2;
+	// TProvider UnityEngine.SubsystemsImplementation.SubsystemWithProvider`3::<provider>k__BackingField
+	RuntimeObject* ___U3CproviderU3Ek__BackingField_3;
 };
 
 // System.ValueTuple`2<System.Object,System.Object>
@@ -6261,6 +6359,11 @@ struct ActionQueryMatcher_tB76860A856401075A2CF71D45AC72A9C0F1BB99E  : public UQ
 {
 	// System.Action`1<T> UnityEngine.UIElements.UQueryState`1/ActionQueryMatcher::<callBack>k__BackingField
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___U3CcallBackU3Ek__BackingField_1;
+};
+
+// UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase`3<System.Object,System.Object,System.Object>
+struct AdaptivePerformanceSubsystemBase_3_tC5B76CDEB4C187C57E29DE16FA78DD53C40A1987  : public SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893
+{
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Rendering.BatchVisibility>
@@ -7745,6 +7848,16 @@ struct EventUnit_1_t5C13FD5AB1AC89EB5728DEC96B1C738127B19849  : public Unit_tEFD
 	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CtriggerU3Ek__BackingField_16;
 };
 
+// System.Func`1<System.Double>
+struct Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<System.Object>
+struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4  : public MulticastDelegate_t
+{
+};
+
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
 struct Func_2_tF42287527472FA89789873F068A87C60A00EC7D3  : public MulticastDelegate_t
 {
@@ -9080,6 +9193,14 @@ struct U3CU3Ec__6_1_tD7F2D223DC5E6DE5790BD670027B74BBDBF55FD5_StaticFields
 
 // System.Linq.Enumerable/<>c__DisplayClass6_0`1<UnityEngine.Vector4>
 
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Double>
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Double>
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Object>
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Object>
+
 // System.Linq.Enumerable/<>c__DisplayClass7_0`3<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object,System.ValueTuple`2<System.Object,System.Object>>
 
 // System.Linq.Enumerable/<>c__DisplayClass7_0`3<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object,System.ValueTuple`2<System.Object,System.Object>>
@@ -9751,6 +9872,14 @@ struct U3CU3Ec__6_1_tD7F2D223DC5E6DE5790BD670027B74BBDBF55FD5_StaticFields
 // Unity.VisualScripting.GraphNest`2/<get_deserializationDependencies>d__41<System.Object,System.Object>
 
 // Unity.VisualScripting.GraphNest`2/<get_deserializationDependencies>d__41<System.Object,System.Object>
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Double>
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Double>
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Object>
+
+// UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1<System.Object>
 
 // System.Collections.Concurrent.ConcurrentDictionary`2<System.Object,System.Object>
 struct ConcurrentDictionary_2_tF598E45B2A3ECB23FD311D829FB0AB32B1201ACF_StaticFields
@@ -9992,6 +10121,10 @@ struct EmptyData_t02ECBE01728C0979248845C107F3FCE871DDC9E3_StaticFields
 // System.Collections.Concurrent.ConcurrentQueue`1/Segment/Slot<System.Object>
 
 // System.Collections.Concurrent.ConcurrentQueue`1/Segment/Slot<System.Object>
+
+// UnityEngine.SubsystemsImplementation.SubsystemWithProvider`3<System.Object,System.Object,System.Object>
+
+// UnityEngine.SubsystemsImplementation.SubsystemWithProvider`3<System.Object,System.Object,System.Object>
 
 // System.ValueTuple`2<System.Object,System.Object>
 
@@ -10302,6 +10435,10 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 // UnityEngine.UIElements.UQueryState`1/ActionQueryMatcher<System.Object>
 
 // UnityEngine.UIElements.UQueryState`1/ActionQueryMatcher<System.Object>
+
+// UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase`3<System.Object,System.Object,System.Object>
+
+// UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase`3<System.Object,System.Object,System.Object>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Rendering.BatchVisibility>
 
@@ -10755,6 +10892,14 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 // Unity.VisualScripting.EventUnit`1<UnityEngine.Vector2>
 
 // Unity.VisualScripting.EventUnit`1<UnityEngine.Vector2>
+
+// System.Func`1<System.Double>
+
+// System.Func`1<System.Double>
+
+// System.Func`1<System.Object>
+
+// System.Func`1<System.Object>
 
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
 
@@ -15451,6 +15596,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_1_U3CCombinePre
 IL_001b:
 	{
 		return (bool)0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Double>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mBDD6A3B77222D59EBAF17A7246C09D0BC3ED705B_gshared (U3CU3Ec__DisplayClass7_0_t20DF8C90174AF4E98FA51C4EDD23C6624A506D12* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Double>::<.ctor>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3C_ctorU3Eb__0_mCFE9348E14D35E4C7DA1A8DCAD2C9E9C359E2712_gshared (U3CU3Ec__DisplayClass7_0_t20DF8C90174AF4E98FA51C4EDD23C6624A506D12* __this, const RuntimeMethod* method) 
+{
+	{
+		// this.updateHandle = updater.Register(() => newValue = updateFunc());
+		AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A* L_0 = (AsyncValue_1_tEB0DAFC36390120B2189858822D394983AC03C9A*)__this->___U3CU3E4__this_0;
+		Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7* L_1 = (Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7*)__this->___updateFunc_1;
+		NullCheck(L_1);
+		double L_2;
+		L_2 = ((  double (*) (Func_1_t7748833627297E42C5F5E294D4EF6457E839B5D7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		NullCheck(L_0);
+		L_0->___newValue_4 = L_2;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m55DC52CCDC5BF24A2A5E42B730ACDE79E59F7BFA_gshared (U3CU3Ec__DisplayClass7_0_t9E564C368A3D317371947265AE92DDD42E6693CB* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.Samsung.Android.AsyncValue`1/<>c__DisplayClass7_0<System.Object>::<.ctor>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3C_ctorU3Eb__0_mB354B1FF57D5CCC4EF04851203AF9DAC97C375A0_gshared (U3CU3Ec__DisplayClass7_0_t9E564C368A3D317371947265AE92DDD42E6693CB* __this, const RuntimeMethod* method) 
+{
+	{
+		// this.updateHandle = updater.Register(() => newValue = updateFunc());
+		AsyncValue_1_tC5421C757AA1AAD9A26CFE04EDB3F0A123547AE3* L_0 = (AsyncValue_1_tC5421C757AA1AAD9A26CFE04EDB3F0A123547AE3*)__this->___U3CU3E4__this_0;
+		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_1 = (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4*)__this->___updateFunc_1;
+		NullCheck(L_1);
+		RuntimeObject* L_2;
+		L_2 = ((  RuntimeObject* (*) (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		NullCheck(L_0);
+		L_0->___newValue_4 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->___newValue_4), (void*)L_2);
+		return;
 	}
 }
 #ifdef __clang__
@@ -33457,6 +33665,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_9_Invoke_m2C6537E1E8DA4F3AC2F589E
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5, ___5_arg6, ___6_arg7, ___7_arg8, ___8_arg9, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase`3<System.Object,System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceSubsystemBase_3__ctor_m74C2D799C6BB1B311039CE9CE2FED174549F683D_gshared (AdaptivePerformanceSubsystemBase_3_tC5B76CDEB4C187C57E29DE16FA78DD53C40A1987* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))((SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		return;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

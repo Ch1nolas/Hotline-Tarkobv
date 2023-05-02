@@ -52,8 +52,8 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UI_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_2D_PixelPerfect_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_AdaptivePerformance_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_AdaptivePerformance_Samsung_Android_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Profiling_Core_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Subsystem_Registration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Timeline_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_VisualScripting_Antlr3_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_VisualScripting_Core_CodeGenModule;
@@ -97,8 +97,8 @@ const Il2CppCodeGenModule* g_CodeGenModules[42] =
 	(&g_UnityEngine_UI_CodeGenModule),
 	(&g_Unity_2D_PixelPerfect_CodeGenModule),
 	(&g_Unity_AdaptivePerformance_CodeGenModule),
+	(&g_Unity_AdaptivePerformance_Samsung_Android_CodeGenModule),
 	(&g_Unity_Profiling_Core_CodeGenModule),
-	(&g_Unity_Subsystem_Registration_CodeGenModule),
 	(&g_Unity_Timeline_CodeGenModule),
 	(&g_Unity_VisualScripting_Antlr3_Runtime_CodeGenModule),
 	(&g_Unity_VisualScripting_Core_CodeGenModule),
@@ -111,14 +111,14 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	2,
 	g_ReversePInvokeWrapperPointers,
-	33208,
+	33246,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	6746,
+	6755,
 	g_Il2CppInvokerPointers,
 	1248,
 	g_UnresolvedVirtualMethodPointers,
-	347,
+	349,
 	g_Il2CppInteropData,
 	0,
 	NULL,
