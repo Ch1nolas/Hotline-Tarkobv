@@ -11,6 +11,7 @@ public class playerMovementJoystick : MonoBehaviour
     public MovementJoystick movementJoystick;
     public Rigidbody2D rb;
     float moveSpeed = 250f;
+    public GameObject Bullet;
 
     float timer;
     Vector2 vectorNew ;

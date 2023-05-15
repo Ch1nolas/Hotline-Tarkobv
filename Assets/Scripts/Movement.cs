@@ -8,6 +8,8 @@ public class Movement : MonoBehaviour
     
     public Rigidbody2D rb;
     public float moveSpeed = 5f;
+    public GameObject Bullet;
+    public Transform start;
 
     Vector2 movement;
 
@@ -23,5 +25,9 @@ public class Movement : MonoBehaviour
     void FixedUpdate(){
         
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    public void fireshoot(){
+        GameObject ob = Instantiate(Bullet, start.transform.position, Quaternion.identity);
     }
 }
