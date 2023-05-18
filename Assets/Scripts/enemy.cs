@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class enemy : MonoBehaviour
 {
@@ -44,6 +45,8 @@ public class enemy : MonoBehaviour
             Destroy(other.gameObject);
             target = null;
             Debug.Log("GAME OVER PETON");
+            SceneManager.LoadScene("GameOver");
+
         }
     }
 }

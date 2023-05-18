@@ -5,7 +5,6 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    
     public Rigidbody2D rb;
     public float moveSpeed = 5f;
     public GameObject Bullet;

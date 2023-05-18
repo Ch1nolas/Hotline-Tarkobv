@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class playerMovementJoystick : MonoBehaviour
 {
     // Start is called before the first frame update
     private int xActual;
     private int yActual;
-    public Animator anim;
     public MovementJoystick movementJoystick;
     public Rigidbody2D rb;
     float moveSpeed = 250f;
@@ -23,32 +24,22 @@ public class playerMovementJoystick : MonoBehaviour
     }
 
     void Update(){
-            // if(xActual == transform.position.x){
-            //     anim.SetTrigger("Idle");
-            // }
-            if(xActual < (int)transform.position.x)
-            {
-                anim.SetTrigger("Derecha");
-            } 
-            
-            if(xActual > (int)transform.position.x){
-                anim.SetTrigger("Izquierda");
-            } 
-            if(yActual < (int)transform.position.y)
-            {
-                anim.SetTrigger("Arriba");
-            } 
-            
-            if(yActual > (int)transform.position.y){
-                anim.SetTrigger("Abajo");
-            } 
-            xActual = (int) transform.position.x;
-            yActual = (int) transform.position.y;
-            Debug.Log(xActual);
+        float hAxis = movementJoystick.joystickVec.x;
+        float vAxis = movementJoystick.joystickVec.y;
+        float zAxis = Mathf.Atan2(hAxis, vAxis) * Mathf.Rad2Deg;
+        transform.eulerAngles = new Vector3(0f, 0f, -zAxis);
     }
     void FixedUpdate()
     {
         vectorNew = new Vector2(movementJoystick.joystickVec.x * moveSpeed, movementJoystick.joystickVec.y * moveSpeed); 
         rb.AddForce(vectorNew); 
+    }
+
+    void Victory(Collision2D other)
+    {
+        if(other.GameObject.CompareTag("")){
+            SceneManager.LoadScene("GameOver");
+            Debug.Log("Has superado el nivel");
+        }
     }
 }
