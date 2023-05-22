@@ -34,12 +34,4 @@ public class playerMovementJoystick : MonoBehaviour
         vectorNew = new Vector2(movementJoystick.joystickVec.x * moveSpeed, movementJoystick.joystickVec.y * moveSpeed); 
         rb.AddForce(vectorNew); 
     }
-
-    void Victory(Collision2D other)
-    {
-        if(other.GameObject.CompareTag("")){
-            SceneManager.LoadScene("GameOver");
-            Debug.Log("Has superado el nivel");
-        }
-    }
 }
