@@ -15,10 +15,12 @@ public class Fire : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
-        
-        if(collision.gameObject != PJ1){
+        Debug.Log(collision.transform.name);
+        if(collision.gameObject != PJ1 && collision.transform.name != "Walls"){
             Debug.Log(collision.transform.name);
             Destroy(collision.gameObject);
+            Destroy(gameObject);
+        } else{
             Destroy(gameObject);
         }
         
