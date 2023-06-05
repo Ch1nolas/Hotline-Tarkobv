@@ -11,7 +11,7 @@ public class Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.up * firespeed * Time.deltaTime, Space.Self);
+        transform.Translate(transform.up * firespeed * Time.deltaTime, Space.Self);
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
@@ -23,6 +23,7 @@ public class Fire : MonoBehaviour
         } else{
             Destroy(gameObject);
         }
-        
+    
+
     }
 }

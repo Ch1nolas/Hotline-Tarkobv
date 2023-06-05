@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class enemy : MonoBehaviour
 {
     public Transform target;  // Referencia al transform del jugador
-    public float movementSpeed = 3f;  // Velocidad de movimiento del enemigo
-    public float rotateSpeed = 0.0225f;
+    private float movementSpeed = 1.5f;  // Velocidad de movimiento del enemigo
+    private float rotateSpeed = 0.525f;
     private Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -17,11 +17,12 @@ public class enemy : MonoBehaviour
     }
 
     private void Update(){
-        if(!target){
-            GetTarget();
-        } else{
-            RotateTowardsTarget();
-        }
+        
+        GetTarget();
+        RotateTowardsTarget();
+        
+
+        
     }
 
     // Update is called once per frame
@@ -34,6 +35,7 @@ public class enemy : MonoBehaviour
         float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg - 90f;
         Quaternion q =  Quaternion.Euler(new Vector3(0, 0, angle));
         transform.localRotation = Quaternion.Slerp(transform.localRotation, q, rotateSpeed);
+        Debug.Log(q);
     }
 
     private void GetTarget(){

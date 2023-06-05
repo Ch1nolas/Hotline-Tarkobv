@@ -34,4 +34,6 @@ public class playerMovementJoystick : MonoBehaviour
         vectorNew = new Vector2(movementJoystick.joystickVec.x * moveSpeed, movementJoystick.joystickVec.y * moveSpeed); 
         rb.AddForce(vectorNew); 
     }
+    
+    
 }

@@ -9,11 +9,12 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 5f;
     public GameObject Bullet;
     public Transform start;
-
+    private AudioSource SonidoDisparo; 
     Vector2 movement;
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
+        SonidoDisparo = GetComponent<AudioSource>();
     }
 
     void Update(){
@@ -27,6 +28,7 @@ public class Movement : MonoBehaviour
     }
 
     public void fireshoot(){
+        SonidoDisparo.Play();
         GameObject ob = Instantiate(Bullet, start.transform.position, Quaternion.identity);
     }
 }
