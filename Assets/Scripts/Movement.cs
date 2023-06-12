@@ -29,6 +29,7 @@ public class Movement : MonoBehaviour
 
     public void fireshoot(){
         SonidoDisparo.Play();
-        GameObject ob = Instantiate(Bullet, start.transform.position, Quaternion.identity);
+        GameObject ob = Instantiate(Bullet, start.position, start.rotation);
+        Debug.Log(Bullet.transform.rotation);
     }
 }

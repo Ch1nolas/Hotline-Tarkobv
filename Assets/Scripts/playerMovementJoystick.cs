@@ -27,7 +27,10 @@ public class playerMovementJoystick : MonoBehaviour
         float hAxis = movementJoystick.joystickVec.x;
         float vAxis = movementJoystick.joystickVec.y;
         float zAxis = Mathf.Atan2(hAxis, vAxis) * Mathf.Rad2Deg;
-        transform.eulerAngles = new Vector3(0f, 0f, -zAxis);
+        if (hAxis != 0 && vAxis != 0) {
+            transform.eulerAngles = new Vector3(0f, 0f, -zAxis);
+
+        }
     }
     void FixedUpdate()
     {

@@ -23,6 +23,7 @@ public class MovementJoystick : MonoBehaviour
         joystick.transform.position = Input.mousePosition;
         joystick86.transform.position = Input.mousePosition;
         joystickTouchPos = Input.mousePosition;
+        joystickVec = Vector2.zero;
     }
 
     public void Drag(BaseEventData baseEventData){
@@ -40,9 +41,10 @@ public class MovementJoystick : MonoBehaviour
     }
 
     public void PointerUp(){
-        joystickVec = Vector2.zero;
         joystick.transform.position = joystickOriginalPos;
         joystick86.transform.position = joystickOriginalPos;
+        joystickVec = Vector2.zero;
+
     }
 
     // Update is called once per frame

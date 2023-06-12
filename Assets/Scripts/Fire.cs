@@ -11,13 +11,12 @@ public class Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(transform.up * firespeed * Time.deltaTime, Space.Self);
+        transform.Translate(Vector2.right * firespeed * Time.deltaTime, Space.Self);
+        
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
-        Debug.Log(collision.transform.name);
         if(collision.gameObject != PJ1 && collision.transform.name != "Walls"){
-            Debug.Log(collision.transform.name);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         } else{
