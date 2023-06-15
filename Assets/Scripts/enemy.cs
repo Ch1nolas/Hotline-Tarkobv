@@ -5,24 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class enemy : MonoBehaviour
 {
+    private AudioSource au;
+    [SerializeField] float tiempoDeSonido;
+
     public Transform target;  // Referencia al transform del jugador
     private float movementSpeed = 1.5f;  // Velocidad de movimiento del enemigo
     private float rotateSpeed = 0.525f;
     private Rigidbody2D rb;
-
+    private float tiempo;
     // Start is called before the first frame update
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb  =   GetComponent<Rigidbody2D>();
+        au  =   GetComponent<AudioSource>();
+        
+    }
+    private void Sonido(){
+        au.Play();
+        
     }
 
     private void Update(){
         
         GetTarget();
         RotateTowardsTarget();
+        tiempo+=Time.deltaTime;
+        if (tiempo >= tiempoDeSonido){
+            Sonido();
+            tiempo=0;
         
-
-        
+        }
     }
 
     // Update is called once per frame
