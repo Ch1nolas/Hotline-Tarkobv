@@ -11,10 +11,13 @@ public class Movement : MonoBehaviour
     public Transform start;
     private AudioSource SonidoDisparo; 
     Vector2 movement;
+    public int death;
+    public Data dataKill;
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
         SonidoDisparo = GetComponent<AudioSource>();
+        dataKill.killCount = 0;
     }
 
     void Update(){
@@ -30,6 +33,6 @@ public class Movement : MonoBehaviour
     public void fireshoot(){
         SonidoDisparo.Play();
         GameObject ob = Instantiate(Bullet, start.position, start.rotation);
-        Debug.Log(Bullet.transform.rotation);
+        
     }
 }

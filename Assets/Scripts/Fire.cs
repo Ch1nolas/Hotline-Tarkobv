@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Fire : MonoBehaviour
 {   
     public float firespeed;
     public GameObject PJ1;
+    public int death;
+    public Data dataKill;
+    public Text textBox;
+
     // Start is called before the first frame update
 
     // Update is called once per frame
@@ -16,13 +21,16 @@ public class Fire : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
+        
         if(collision.gameObject != PJ1 && collision.transform.name != "Walls"){
+            dataKill.killCount += 1;
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            textBox.text = dataKill.killCount.ToString();
         } else{
             Destroy(gameObject);
         }
-    
+        
 
     }
 }
