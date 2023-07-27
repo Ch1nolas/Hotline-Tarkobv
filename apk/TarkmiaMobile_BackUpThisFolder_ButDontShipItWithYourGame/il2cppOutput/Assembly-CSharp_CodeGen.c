@@ -68,37 +68,43 @@ extern void MenuInicial__ctor_m8B90E8BF0521CC279412CF2C5D20D0B9619955E0 (void);
 extern void MenuOpciones_CambiarVolumen_m9651A9D619F8A0924A894FA5628E4285D172C842 (void);
 // 0x0000001C System.Void MenuOpciones::.ctor()
 extern void MenuOpciones__ctor_m6B524B2F8B2D1D49EB2556980D71A325D0038138 (void);
-// 0x0000001D System.Void Movement::Start()
+// 0x0000001D System.Void MenuVictoria::SiguienteLevel()
+extern void MenuVictoria_SiguienteLevel_m3C39B349C9A84D1F0334645ED8F624BBBC8D2DD9 (void);
+// 0x0000001E System.Void MenuVictoria::Menu()
+extern void MenuVictoria_Menu_mA386A39A5F3BA8313391B3DE7DEF06B507412C95 (void);
+// 0x0000001F System.Void MenuVictoria::.ctor()
+extern void MenuVictoria__ctor_m8F7460F5A04366A4CEAC45F4FE5DBBDAC7181913 (void);
+// 0x00000020 System.Void Movement::Start()
 extern void Movement_Start_m3D09153FD03F06C31BBD151C21BA361EA49FA72B (void);
-// 0x0000001E System.Void Movement::Update()
+// 0x00000021 System.Void Movement::Update()
 extern void Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418 (void);
-// 0x0000001F System.Void Movement::FixedUpdate()
+// 0x00000022 System.Void Movement::FixedUpdate()
 extern void Movement_FixedUpdate_mBAFAFB0C3B305F3F3FCDE7E0AE3B61C89E84B6CC (void);
-// 0x00000020 System.Void Movement::fireshoot()
+// 0x00000023 System.Void Movement::fireshoot()
 extern void Movement_fireshoot_mD8C870BCBF6DA0593B3D561D2DE5018B44F4F102 (void);
-// 0x00000021 System.Void Movement::.ctor()
+// 0x00000024 System.Void Movement::.ctor()
 extern void Movement__ctor_mCB72C1AD57256D73959D74FB86C5D0AA69EAE7ED (void);
-// 0x00000022 System.Void MovementJoystick::Start()
+// 0x00000025 System.Void MovementJoystick::Start()
 extern void MovementJoystick_Start_m8B55356C72D0D473A1ADB3DFC16E9995ED853137 (void);
-// 0x00000023 System.Void MovementJoystick::PointerDown()
+// 0x00000026 System.Void MovementJoystick::PointerDown()
 extern void MovementJoystick_PointerDown_m03BC0414CD652737813699AF45F2E340858F356E (void);
-// 0x00000024 System.Void MovementJoystick::Drag(UnityEngine.EventSystems.BaseEventData)
+// 0x00000027 System.Void MovementJoystick::Drag(UnityEngine.EventSystems.BaseEventData)
 extern void MovementJoystick_Drag_mBE95AD2A52E5B99467D4C7505E752B1BEE105E2C (void);
-// 0x00000025 System.Void MovementJoystick::PointerUp()
+// 0x00000028 System.Void MovementJoystick::PointerUp()
 extern void MovementJoystick_PointerUp_mE1E88BA6D758822C3F07335809C3775C48E34CB8 (void);
-// 0x00000026 System.Void MovementJoystick::Update()
+// 0x00000029 System.Void MovementJoystick::Update()
 extern void MovementJoystick_Update_mF9F5D617B1200211AABB6428FDC90C7D2EC0F1AB (void);
-// 0x00000027 System.Void MovementJoystick::.ctor()
+// 0x0000002A System.Void MovementJoystick::.ctor()
 extern void MovementJoystick__ctor_mA1DE8E1FBB5A441C23AC19571BC26FD1D9D27C19 (void);
-// 0x00000028 System.Void playerMovementJoystick::Start()
+// 0x0000002B System.Void playerMovementJoystick::Start()
 extern void playerMovementJoystick_Start_mAE260F2E9543936941A3534C34FEDD656AFCCADE (void);
-// 0x00000029 System.Void playerMovementJoystick::Update()
+// 0x0000002C System.Void playerMovementJoystick::Update()
 extern void playerMovementJoystick_Update_mD6BB86FA004B721B1976795660A4FC9F9E973342 (void);
-// 0x0000002A System.Void playerMovementJoystick::FixedUpdate()
+// 0x0000002D System.Void playerMovementJoystick::FixedUpdate()
 extern void playerMovementJoystick_FixedUpdate_m49CF900E563EE254DA99F96A99DB744198473B7C (void);
-// 0x0000002B System.Void playerMovementJoystick::.ctor()
+// 0x0000002E System.Void playerMovementJoystick::.ctor()
 extern void playerMovementJoystick__ctor_m717C6A4E26106394371EB1B5F6FF01091A4373AB (void);
-static Il2CppMethodPointer s_methodPointers[43] = 
+static Il2CppMethodPointer s_methodPointers[46] = 
 {
 	finishline_OnTriggerEnter2D_m580A3DBA2BC0F18BC712B9CF84992182118A332B,
 	finishline__ctor_m66C2CC864FE9E6F51620D8F1930B1FC39C618F8A,
@@ -128,6 +134,9 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	MenuInicial__ctor_m8B90E8BF0521CC279412CF2C5D20D0B9619955E0,
 	MenuOpciones_CambiarVolumen_m9651A9D619F8A0924A894FA5628E4285D172C842,
 	MenuOpciones__ctor_m6B524B2F8B2D1D49EB2556980D71A325D0038138,
+	MenuVictoria_SiguienteLevel_m3C39B349C9A84D1F0334645ED8F624BBBC8D2DD9,
+	MenuVictoria_Menu_mA386A39A5F3BA8313391B3DE7DEF06B507412C95,
+	MenuVictoria__ctor_m8F7460F5A04366A4CEAC45F4FE5DBBDAC7181913,
 	Movement_Start_m3D09153FD03F06C31BBD151C21BA361EA49FA72B,
 	Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418,
 	Movement_FixedUpdate_mBAFAFB0C3B305F3F3FCDE7E0AE3B61C89E84B6CC,
@@ -144,7 +153,7 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	playerMovementJoystick_FixedUpdate_m49CF900E563EE254DA99F96A99DB744198473B7C,
 	playerMovementJoystick__ctor_m717C6A4E26106394371EB1B5F6FF01091A4373AB,
 };
-static const int32_t s_InvokerIndices[43] = 
+static const int32_t s_InvokerIndices[46] = 
 {
 	3822,
 	4715,
@@ -173,6 +182,9 @@ static const int32_t s_InvokerIndices[43] =
 	3860,
 	4715,
 	3860,
+	4715,
+	4715,
+	4715,
 	4715,
 	4715,
 	4715,
@@ -194,7 +206,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	43,
+	46,
 	s_methodPointers,
 	0,
 	NULL,

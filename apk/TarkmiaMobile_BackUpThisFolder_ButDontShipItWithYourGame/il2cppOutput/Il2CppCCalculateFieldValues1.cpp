@@ -36542,21 +36542,21 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5916[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5919[1] = 
 {
 	static_cast<int32_t>(offsetof(MenuOpciones_t926FF3920B0D7AFEA8B344A4F85ED59AB2719F1A, ___audioMixer_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5920[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5921[8] = 
 {
 	static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___rb_4)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___moveSpeed_5)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___Bullet_6)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___start_7)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___SonidoDisparo_8)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___movement_9)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___death_10)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___dataKill_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5921[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5922[6] = 
 {
 	static_cast<int32_t>(offsetof(MovementJoystick_t2017A611A0BFF544D9C0FE539249F863DE7250CA, ___joystick_4)),static_cast<int32_t>(offsetof(MovementJoystick_t2017A611A0BFF544D9C0FE539249F863DE7250CA, ___joystick86_5)),static_cast<int32_t>(offsetof(MovementJoystick_t2017A611A0BFF544D9C0FE539249F863DE7250CA, ___joystickVec_6)),static_cast<int32_t>(offsetof(MovementJoystick_t2017A611A0BFF544D9C0FE539249F863DE7250CA, ___joystickTouchPos_7)),static_cast<int32_t>(offsetof(MovementJoystick_t2017A611A0BFF544D9C0FE539249F863DE7250CA, ___joystickOriginalPos_8)),static_cast<int32_t>(offsetof(MovementJoystick_t2017A611A0BFF544D9C0FE539249F863DE7250CA, ___joystickRadius_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5922[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5923[8] = 
 {
 	static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___xActual_4)),static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___yActual_5)),static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___movementJoystick_6)),static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___rb_7)),static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___moveSpeed_8)),static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___Bullet_9)),static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___timer_10)),static_cast<int32_t>(offsetof(playerMovementJoystick_t135E21D61161E3ED24468584A13EC40D82073A41, ___vectorNew_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5924[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5925[3] = 
 {
 	static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_nTag_0)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_aValue_1)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___elist_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5942[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5943[3] = 
 {
 	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5947[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5948[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
