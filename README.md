@@ -1,7 +1,7 @@
 
 # Proyecto Tarkmi
-El proyecto consiste en un juego top down llamado Tarkmi que es simar al jugo Hotline Miaji tomando en cuenta varias mecanicas del mismo como el diparo, la perspectiva, la movilida, etec. Este juego esta conformado por tres integrante Santino Vitale , Leopoldo Rigau y Nicolas Martinez, este grupo de divide en 2 parte la primera es de investigaion y la otra parte es de creacion del proyecto.
-La investigacion consiste en buscar distintos asset pra llevar a cabo la creacion de mapas, personajes, armas, etec. La siguiente parte se trata de poder crear el proyecto teniendo en cuenta la investigacion y la informacion que nos aporte el profesor.
+El proyecto consiste en un juego Top Down llamado Tarkmia, el cual es similar al juego Hotline Miami tomando en cuenta varias mecánicas del mismo como el diparo, la perspectiva, la movilida, etc. Este juego está conformado por tres integrantes: Santino Vitale , Leopoldo Rigau y Nicolás Martinez, este grupo se divide en 2 partes, la primera se encarga en la investigación y la otra parte es de creación del proyecto.
+La investigación consiste en buscar distintos asset para llevar a cabo la creación de mapas, personajes, armas, etc. La siguiente parte se trata de poder crear el proyecto teniendo en cuenta la investigación y la información que nos aporte el profesor.
 
 
 
