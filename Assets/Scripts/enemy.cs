@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.AI;
 
 public class enemy : MonoBehaviour
 {
@@ -13,11 +14,14 @@ public class enemy : MonoBehaviour
     private float rotateSpeed = 0.525f;
     private Rigidbody2D rb;
     private float tiempo;
+    private NavMeshAgent agente;
     // Start is called before the first frame update
+
     private void Start()
     {
         rb  =   GetComponent<Rigidbody2D>();
         au  =   GetComponent<AudioSource>();
+        agente = GetComponent<UnityEngine.AI.NavMeshAgent>();
         
     }
     private void Sonido(){
@@ -27,8 +31,9 @@ public class enemy : MonoBehaviour
 
     private void Update(){
         
-        GetTarget();
-        RotateTowardsTarget();
+        //GetTarget();
+        //RotateTowardsTarget();
+        agente.SetDestination(target.position);
         tiempo+=Time.deltaTime;
         if (tiempo >= tiempoDeSonido){
             Sonido();
@@ -55,6 +60,7 @@ public class enemy : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other){
+        Debug.Log(other.gameObject);
         if(other.gameObject.CompareTag("Player")){
             Destroy(other.gameObject);
             target = null;

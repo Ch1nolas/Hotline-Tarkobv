@@ -13,12 +13,14 @@ public class playerMovementJoystick : MonoBehaviour
     public Rigidbody2D rb;
     float moveSpeed = 250f;
     public GameObject Bullet;
+    public Animator animator;
 
     float timer;
     Vector2 vectorNew ;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         xActual = (int) transform.position.x;
         yActual = (int) transform.position.y;
     }
@@ -29,8 +31,11 @@ public class playerMovementJoystick : MonoBehaviour
         float zAxis = Mathf.Atan2(hAxis, vAxis) * Mathf.Rad2Deg;
         if (hAxis != 0 && vAxis != 0) {
             transform.eulerAngles = new Vector3(0f, 0f, -zAxis);
-
+            animator.SetBool("Moviendo", true);
+        } else {
+            animator.SetBool("Moviendo", false);
         }
+        
     }
     void FixedUpdate()
     {
