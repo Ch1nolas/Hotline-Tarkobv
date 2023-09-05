@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuVictoria : MonoBehaviour
 {  
    public void SiguienteLevel() {
-        SceneManager.LoadScene("Principal");
+        SceneManager.LoadScene("Level1-Part1");
     }
 
     public void Menu() {

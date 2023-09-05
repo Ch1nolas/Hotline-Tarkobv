@@ -10,6 +10,7 @@ public class playerMovementJoystick : MonoBehaviour
     private int xActual;
     private int yActual;
     public MovementJoystick movementJoystick;
+    public FireJoystick fireJoystick; //
     public Rigidbody2D rb;
     float moveSpeed = 250f;
     public GameObject Bullet;
@@ -29,9 +30,15 @@ public class playerMovementJoystick : MonoBehaviour
         float hAxis = movementJoystick.joystickVec.x;
         float vAxis = movementJoystick.joystickVec.y;
         float zAxis = Mathf.Atan2(hAxis, vAxis) * Mathf.Rad2Deg;
+        float FirehAxis = fireJoystick.joystickVec.x;
+        float FirevAxis = fireJoystick.joystickVec.y;
+        float FirezAxis = Mathf.Atan2(FirehAxis, FirevAxis) * Mathf.Rad2Deg;
         if (hAxis != 0 && vAxis != 0) {
             transform.eulerAngles = new Vector3(0f, 0f, -zAxis);
             animator.SetBool("Moviendo", true);
+        }else if(FirehAxis != 0 && FirevAxis != 0){
+            transform.eulerAngles = new Vector3(0f, 0f, -FirezAxis);
+            animator.SetBool("Moviendo", false);
         } else {
             animator.SetBool("Moviendo", false);
         }
@@ -39,6 +46,7 @@ public class playerMovementJoystick : MonoBehaviour
     }
     void FixedUpdate()
     {
+
         vectorNew = new Vector2(movementJoystick.joystickVec.x * moveSpeed, movementJoystick.joystickVec.y * moveSpeed); 
         rb.AddForce(vectorNew); 
     }
