@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuInicial : MonoBehaviour
 {
     public void Jugar() {
-        SceneManager.LoadScene("Level0");
+        SceneManager.LoadScene("Level-0");
     }
 
     public void Salir() {

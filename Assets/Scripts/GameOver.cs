@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {  
    public void Jugar() {
-        SceneManager.LoadScene("Principal");
+        SceneManager.LoadScene("Level-0");
     }
 
     public void Salir() {
