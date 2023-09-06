@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {  
-   public void Jugar() {
-        SceneManager.LoadScene("Level-0");
+    public Data dataKill;
+
+    public void Jugar() {
+        SceneManager.LoadScene(dataKill.previousSceneName);
     }
 
     public void Salir() {

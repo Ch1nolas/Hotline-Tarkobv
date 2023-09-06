@@ -7,4 +7,5 @@ using UnityEngine;
 public class Data : ScriptableObject
 {
    public int killCount;
+   public string previousSceneName;
 }

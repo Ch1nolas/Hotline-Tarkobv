@@ -21,13 +21,12 @@ public class Fire : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
-        
-        if(collision.gameObject != PJ1 && collision.transform.name != "Walls"){
+        if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2"){
             dataKill.killCount += 1;
             Destroy(collision.gameObject);
             Destroy(gameObject);
             textBox.text = dataKill.killCount.ToString();
-        } else{
+        }else{
             Destroy(gameObject);
         }
         
