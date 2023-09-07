@@ -12,12 +12,12 @@ public class Movement : MonoBehaviour
     private AudioSource SonidoDisparo; 
     Vector2 movement;
     public int death;
-    public Data dataKill;
+
+    public ParticleSystem muzzleFlash;
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
         SonidoDisparo = GetComponent<AudioSource>();
-        dataKill.killCount = 0;
     }
 
     void Update(){
@@ -32,6 +32,7 @@ public class Movement : MonoBehaviour
 
     public void fireshoot(){
         SonidoDisparo.Play();
+        muzzleFlash.Play();
         GameObject ob = Instantiate(Bullet, start.position, start.rotation);
         
     }

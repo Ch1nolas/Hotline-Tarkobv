@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MenuVictoria : MonoBehaviour
 {  
-   public void SiguienteLevel() {
-        SceneManager.LoadScene("Level1-Part1");
+    public Data dataKill;
+    public void SiguienteLevel() {
+        SceneManager.LoadScene(dataKill.vicoryPreviusScene + 1);
     }
 
     public void Menu() {

@@ -8,4 +8,6 @@ public class Data : ScriptableObject
 {
    public int killCount;
    public string previousSceneName;
+
+   public int vicoryPreviusScene;
 }

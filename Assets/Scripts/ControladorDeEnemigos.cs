@@ -8,9 +8,6 @@ public class ControladorDeEnemigos : MonoBehaviour
     private float minX, maxX, minY, maxY;
     [SerializeField] private Transform[] puntos;
     [SerializeField] private GameObject[] enemigos;
-    [SerializeField] private float tiempoEnemigo;
-    private float tiempoSiguienteEnemigo;
-
     private void Start() {
         maxX = puntos.Max(punto => punto.position.x);
         minX = puntos.Min(punto => punto.position.x);
@@ -18,15 +15,10 @@ public class ControladorDeEnemigos : MonoBehaviour
         minY = puntos.Min(punto => punto.position.y);
     }
 
-    private void Update(){
-        
-    }
-
     private void CrearEnemigo(){
         int numeroEnemigo = Random.Range(0, enemigos.Length);
         Vector2 posicionAleatoria = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
         Instantiate(enemigos[numeroEnemigo], posicionAleatoria, Quaternion.identity);
-        enemigos[numeroEnemigo].GetComponent<EnemyAudioController>().SetInBox(false);
         enemigos[numeroEnemigo].GetComponent<EnemyAudioController>().EnableAudio();
     }
 
@@ -37,6 +29,7 @@ public class ControladorDeEnemigos : MonoBehaviour
         {
             CrearEnemigo();
         }
+        Destroy(gameObject);
     }
     }
 }

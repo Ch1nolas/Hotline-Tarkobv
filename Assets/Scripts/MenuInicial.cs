@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuInicial : MonoBehaviour
 {
+
+    public Data dataKill;
     public void Jugar() {
+        dataKill.killCount = 0;
         SceneManager.LoadScene("Level-0");
     }
 

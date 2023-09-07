@@ -11,6 +11,8 @@ public class Fire : MonoBehaviour
     public Data dataKill;
     public Text textBox;
 
+    public GameObject Blood;
+
     // Start is called before the first frame update
 
     // Update is called once per frame
@@ -24,9 +26,11 @@ public class Fire : MonoBehaviour
         if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2"){
             dataKill.killCount += 1;
             Destroy(collision.gameObject);
+            Instantiate(Blood, transform.position, Quaternion.identity);
             Destroy(gameObject);
             textBox.text = dataKill.killCount.ToString();
         }else{
+            
             Destroy(gameObject);
         }
         

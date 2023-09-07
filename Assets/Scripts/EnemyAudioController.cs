@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyAudioController : MonoBehaviour
 {
     private AudioSource audioSource;
-    private bool isInBox = false;
 
     void Start()
     {
@@ -14,10 +13,7 @@ public class EnemyAudioController : MonoBehaviour
 
     public void EnableAudio()
     {
-        if (!isInBox)
-        {
-            audioSource.enabled = true;
-        }
+        audioSource.enabled = true;
     }
 
     public void DisableAudio()
@@ -25,8 +21,4 @@ public class EnemyAudioController : MonoBehaviour
         audioSource.enabled = false;
     }
 
-    public void SetInBox(bool value)
-    {
-        isInBox = value;
-    }
 }
