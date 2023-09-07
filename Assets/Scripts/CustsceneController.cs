@@ -6,6 +6,7 @@ public class CustsceneController : MonoBehaviour
 {
     [SerializeField] private Canvas canvas;
     [SerializeField] private Canvas canvas2;
+    public Data dataKill;
     public static bool isCutscene;
     public Animator canAnim;
 
@@ -17,6 +18,8 @@ public class CustsceneController : MonoBehaviour
             canAnim.SetBool("Cutscene1", false);
             canvas.enabled = false;
             canvas2.enabled = true;
+            dataKill.isCutscene=true;
+            
             Invoke("DisableCanvas", 5f);
             
         }
@@ -27,6 +30,13 @@ public class CustsceneController : MonoBehaviour
         Debug.Log("¡Función ejecutada después del tiempo de espera!");
         canvas2.enabled = false;
         canvas.enabled = true;
+        
+        Invoke("DisableCutscene", 3f);
+       
+    }
+
+    private void DisableCutscene(){
+        dataKill.isCutscene = false;
         Destroy(gameObject);
     }
 }

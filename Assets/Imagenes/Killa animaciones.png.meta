@@ -1,0 +1,657 @@
+fileFormatVersion: 2
+guid: 0bdc4dc1eee4d0b4abc294d32dd75de5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Killa animaciones_4
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1205
+        width: 349
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee468ce97d4dec4086925a52b1c0590
+      internalID: 1942052230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_6
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 1205
+        width: 377
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fbc06b0e2818443914ffeb20b256c9
+      internalID: -1024411751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_8
+      rect:
+        serializedVersion: 2
+        x: 7037
+        y: 1201
+        width: 353
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2250d265c4b4941a215c36679b4b43
+      internalID: 2140729592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_11
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 1178
+        width: 349
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46c1917c8dac2245bd6ed11dae1d742
+      internalID: 1717972265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_13
+      rect:
+        serializedVersion: 2
+        x: 7865
+        y: 1178
+        width: 348
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfd2a24e6fcfe34196c50f5dd440d39
+      internalID: -583414931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_14
+      rect:
+        serializedVersion: 2
+        x: 8668
+        y: 1178
+        width: 404
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a4b5b439382c468ed7a8e96ce7c73
+      internalID: 345061406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1236
+        width: 401
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26a3b547a3bf3f468b33780a6aeca85
+      internalID: -32557841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_17
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1234
+        width: 344
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753cdf63d5fab4040b52388b1098034c
+      internalID: 42922039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_18
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 1234
+        width: 349
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed51fe62f4277ca4aaf4da7a7119ff7c
+      internalID: 500648772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_19
+      rect:
+        serializedVersion: 2
+        x: 5396
+        y: 1277
+        width: 349
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7b6c96174926641ab9a9e926991ee7
+      internalID: 657204791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_21
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 1234
+        width: 349
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a1c7a1634c9d347a0296ec51602dc8
+      internalID: 1712113032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_34
+      rect:
+        serializedVersion: 2
+        x: 7121
+        y: 1183
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0cdc3a02981514cadc244a48da67fb
+      internalID: 689312345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_43
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 173
+        width: 356
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48447ccfa6ea24f45a370254eb8247fb
+      internalID: 318992825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_45
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 144
+        width: 404
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff946ddd7158c5a48af06dcce2eeba26
+      internalID: -1247152990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_46
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 171
+        width: 357
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75a01b68966df140b5b25fd065d6d94
+      internalID: -1515198326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_47
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 144
+        width: 385
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b6691b42d9e204db416006abad8c78
+      internalID: -299444648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_48
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 518
+        width: 432
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096acd3f07d2c2b4fbe6a6fdc32dd2d2
+      internalID: 1701572911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_53
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 546
+        width: 401
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98327385745f32419e721cd19a47b3f
+      internalID: -1755383368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_54
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 573
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cb7e66bbd673b43ab54d238e3a39d3
+      internalID: 837490956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_55
+      rect:
+        serializedVersion: 2
+        x: 8470
+        y: 201
+        width: 28
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2544d340a87257a41a8e74b8e93743de
+      internalID: 2018410387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killa animaciones_56
+      rect:
+        serializedVersion: 2
+        x: 8499
+        y: 173
+        width: 860
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e10d57249da4a449fc2701a0c09773
+      internalID: 837934685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Killa animaciones_0: 2102603401
+      Killa animaciones_1: 1518640174
+      Killa animaciones_10: 1160614550
+      Killa animaciones_11: 1717972265
+      Killa animaciones_12: -398863076
+      Killa animaciones_13: -583414931
+      Killa animaciones_14: 345061406
+      Killa animaciones_15: -32557841
+      Killa animaciones_16: 1466618683
+      Killa animaciones_17: 42922039
+      Killa animaciones_18: 500648772
+      Killa animaciones_19: 657204791
+      Killa animaciones_2: -1078593448
+      Killa animaciones_20: 2029594117
+      Killa animaciones_21: 1712113032
+      Killa animaciones_22: -492211907
+      Killa animaciones_23: 1771084193
+      Killa animaciones_24: -888697543
+      Killa animaciones_25: 1823756602
+      Killa animaciones_26: -1902338760
+      Killa animaciones_27: 278056640
+      Killa animaciones_28: -426448579
+      Killa animaciones_29: 974693115
+      Killa animaciones_3: 1065128080
+      Killa animaciones_30: -1857501966
+      Killa animaciones_31: -963826316
+      Killa animaciones_32: -701378951
+      Killa animaciones_33: 1714854716
+      Killa animaciones_34: 689312345
+      Killa animaciones_35: 1596554700
+      Killa animaciones_36: -1737538370
+      Killa animaciones_37: 347658515
+      Killa animaciones_38: -1268030508
+      Killa animaciones_39: -2063253470
+      Killa animaciones_4: 1942052230
+      Killa animaciones_40: -1370081040
+      Killa animaciones_41: 155417493
+      Killa animaciones_42: 15024223
+      Killa animaciones_43: 318992825
+      Killa animaciones_44: 1232011960
+      Killa animaciones_45: -1247152990
+      Killa animaciones_46: -1515198326
+      Killa animaciones_47: -299444648
+      Killa animaciones_48: 1701572911
+      Killa animaciones_49: 457586660
+      Killa animaciones_5: 1925156565
+      Killa animaciones_50: -1639069279
+      Killa animaciones_51: -296531907
+      Killa animaciones_52: -267361155
+      Killa animaciones_53: -1755383368
+      Killa animaciones_54: 837490956
+      Killa animaciones_55: 2018410387
+      Killa animaciones_56: 837934685
+      Killa animaciones_6: -1024411751
+      Killa animaciones_7: -2080699017
+      Killa animaciones_8: 2140729592
+      Killa animaciones_9: 1154357280
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
