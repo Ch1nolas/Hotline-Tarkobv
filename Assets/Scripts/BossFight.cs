@@ -14,23 +14,35 @@ public class BossFight : MonoBehaviour
     public Data dataKill;
     public ParticleSystem muzzleFlash;
     public Text recargandoText;
+    public float moveSpeed = 5f;
+    public float upperLimit = 62f;
+    public float lowerLimit = 43f;
+    public bool isMoving = true;
 
-    // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("PJ1").transform;
         recargandoText.gameObject.SetActive(false);
+
+        Invoke("StopMoving", Random.Range(3f, 5f));
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-
-        Vector2 targetDirection = player.position - transform.position;
-        float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg - 90f;
-        Quaternion q = Quaternion.Euler(new Vector3(0, 0, angle));
-        transform.localRotation = Quaternion.Slerp(transform.localRotation, q, rotateSpeed);
+        if(isMoving){
+            MoveUpDown();
+        } else if(isMoving == false){
+            LookAtPlayer();
+            ShootToPlayer();
+        }
         
+        
+        
+        
+    }
+
+    void ShootToPlayer(){
         tiempo += Time.deltaTime;
         if (disparosRealizados < 5)
         {
@@ -58,8 +70,47 @@ public class BossFight : MonoBehaviour
         }
     }
 
+    void LookAtPlayer(){
+        Vector2 targetDirection = player.position - transform.position;
+        float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg - 90f;
+        Quaternion q = Quaternion.Euler(new Vector3(0, 0, angle));
+        transform.localRotation = Quaternion.Slerp(transform.localRotation, q, rotateSpeed);
+    }
+
+    void MoveUpDown()
+    {
+        transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
+        
+        if (transform.position.y >= upperLimit)
+        {
+            transform.position = new Vector3(transform.position.x, upperLimit, transform.position.z);
+            RotateCharacter();
+        }
+        else if (transform.position.y <= lowerLimit)
+        {
+            transform.position = new Vector3(transform.position.x, lowerLimit, transform.position.z);
+            RotateCharacter();
+        }
+    }
+    void RotateCharacter()
+    {
+        transform.Rotate(Vector3.forward, 180f);
+    }
+
+    void StopMoving()
+    {
+        isMoving = false;
+        
+    }
     void HideRecargandoText()
     {
         recargandoText.gameObject.SetActive(false);
+        
+        isMoving = true;
+        Invoke("StopMoving", Random.Range(3f, 5f));
+    }
+    void ResetRotation()
+    {
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
     }
 }
