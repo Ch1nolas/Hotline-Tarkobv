@@ -23,16 +23,20 @@ public class Fire : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2"){
+        if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2" && collision.transform.name != "Killa"){
             dataKill.killCount += 1;
             Destroy(collision.gameObject);
             Instantiate(Blood, transform.position, Quaternion.identity);
             Destroy(gameObject);
             textBox.text = dataKill.killCount.ToString();
-        }else{
+        }else if(collision.transform.name != "Killa"){
+            Debug.Log("LE PEGASTE - CODIGO BALA");
+        }
+        else{
             
             Destroy(gameObject);
         }
+        
         
 
     }

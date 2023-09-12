@@ -18,6 +18,12 @@ public class BossFight : MonoBehaviour
     public float upperLimit = 62f;
     public float lowerLimit = 43f;
     public bool isMoving = true;
+    public bool hasRotated = false;
+    public GameObject balaPJ1;
+    int VidasJefe = 5;
+    bool canBeShoot = false;
+    bool hasExecuted = false;
+    bool hasExecuted2 = true;
 
     void Start()
     {
@@ -31,12 +37,20 @@ public class BossFight : MonoBehaviour
     void Update()
     {
         if(isMoving){
+            if(!hasExecuted){
+                ResetRotation();
+                hasExecuted = true;
+            }
             MoveUpDown();
         } else if(isMoving == false){
             LookAtPlayer();
             ShootToPlayer();
         }
-        
+        if(!hasExecuted2){
+            isMoving = true;
+            Invoke("StopMoving", Random.Range(3f, 5f));
+            hasExecuted2 = true;
+        }
         
         
         
@@ -60,12 +74,16 @@ public class BossFight : MonoBehaviour
             {
                 disparosRealizados = 0;
                 tiempo = 0;
-                
+                hasExecuted2=false;
             }
             recargandoText.gameObject.SetActive(true);
             if(recargandoText.gameObject.activeSelf){
+                Debug.Log("Ahora le podes pegar");
+                canBeShoot = true;
                 Invoke("HideRecargandoText", 5f);
             }
+            hasExecuted=false;
+            
             
         }
     }
@@ -78,39 +96,61 @@ public class BossFight : MonoBehaviour
     }
 
     void MoveUpDown()
+{
+    transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
+
+    if (transform.position.y >= upperLimit)
     {
-        transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
-        
-        if (transform.position.y >= upperLimit)
+        transform.position = new Vector3(transform.position.x, upperLimit, transform.position.z);
+        if (!hasRotated)
         {
-            transform.position = new Vector3(transform.position.x, upperLimit, transform.position.z);
-            RotateCharacter();
-        }
-        else if (transform.position.y <= lowerLimit)
-        {
-            transform.position = new Vector3(transform.position.x, lowerLimit, transform.position.z);
-            RotateCharacter();
+            transform.Rotate(Vector3.forward, 180f);
+            hasRotated = true;
         }
     }
-    void RotateCharacter()
+    else if (transform.position.y <= lowerLimit)
     {
-        transform.Rotate(Vector3.forward, 180f);
+        transform.position = new Vector3(transform.position.x, lowerLimit, transform.position.z);
+        if (!hasRotated)
+        {
+            transform.Rotate(Vector3.forward, -180f);
+            hasRotated = true;
+        }
     }
+    else
+    {
+        hasRotated = false; // Reinicia la variable hasRotated si no está en una esquina
+    }
+}
 
     void StopMoving()
     {
         isMoving = false;
+        Debug.Log("SE PAROOO");
         
     }
     void HideRecargandoText()
     {
-        recargandoText.gameObject.SetActive(false);
+        if(recargandoText.gameObject.activeSelf){
+            Debug.Log("Ya no le podes pegar");
+            canBeShoot = false;
+            recargandoText.gameObject.SetActive(false);
+        }
         
-        isMoving = true;
-        Invoke("StopMoving", Random.Range(3f, 5f));
+        
     }
     void ResetRotation()
     {
         transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision){
+        
+        if(collision.transform.name == "Bullet(Clone)" && canBeShoot){
+            VidasJefe--;
+            Destroy(collision.gameObject);
+            Debug.Log("le pegaste una");
+            Debug.Log(VidasJefe);
+        }
     }
 }

@@ -11430,6 +11430,12 @@ MonoBehaviour:
   dataKill: {fileID: 11400000, guid: c343ebb8eb407e949b5338197934677f, type: 2}
   muzzleFlash: {fileID: 685211726}
   recargandoText: {fileID: 1480774688}
+  moveSpeed: 5
+  upperLimit: 62
+  lowerLimit: 43
+  isMoving: 1
+  hasRotated: 0
+  balaPJ1: {fileID: 2028141909}
 --- !u!50 &820392367
 Rigidbody2D:
   serializedVersion: 4
