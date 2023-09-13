@@ -24,7 +24,7 @@ public class FireBoss : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject != Killa && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2"){
+        if(collision.gameObject != Killa && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2" && collision.transform.name != "Barricada"){
             dataKill.previousSceneName = SceneManager.GetActiveScene().name;
             Instantiate(Blood, transform.position, Quaternion.identity);
             

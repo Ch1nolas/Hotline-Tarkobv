@@ -1233,8 +1233,9 @@ GameObject:
   - component: {fileID: 236017226}
   - component: {fileID: 236017228}
   - component: {fileID: 236017227}
+  - component: {fileID: 236017229}
   m_Layer: 0
-  m_Name: sprTableBarricade_strip2_1 (1)
+  m_Name: Barricada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1268,7 +1269,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23456159, y: 0}
+  m_Offset: {x: -0.3305536, y: 0.031772286}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1279,7 +1280,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.28087682, y: 1.53125}
+  m_Size: {x: 0.4728608, y: 1.7854283}
   m_EdgeRadius: 0
 --- !u!212 &236017228
 SpriteRenderer:
@@ -1333,6 +1334,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &236017229
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236017225}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 100.84
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &242310158
 GameObject:
   m_ObjectHideFlags: 0
@@ -7544,8 +7566,9 @@ GameObject:
   - component: {fileID: 632549879}
   - component: {fileID: 632549878}
   - component: {fileID: 632549880}
+  - component: {fileID: 632549881}
   m_Layer: 0
-  m_Name: sprTableBarricade_strip2_1
+  m_Name: Barricada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7631,7 +7654,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21353175, y: 0}
+  m_Offset: {x: -0.29320735, y: 0.03248608}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7642,8 +7665,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3229365, y: 1.53125}
+  m_Size: {x: 0.48228776, y: 1.891166}
   m_EdgeRadius: 0
+--- !u!50 &632549881
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632549877}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 0.9120862
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &642754178
 GameObject:
   m_ObjectHideFlags: 0
@@ -12766,8 +12810,9 @@ GameObject:
   - component: {fileID: 792122402}
   - component: {fileID: 792122401}
   - component: {fileID: 792122403}
+  - component: {fileID: 792122404}
   m_Layer: 0
-  m_Name: sprTableBarricade_strip2_0
+  m_Name: Barricada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12853,7 +12898,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.22878161, y: 0}
+  m_Offset: {x: -0.32499206, y: 0.016396224}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12864,8 +12909,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.29243678, y: 1.53125}
+  m_Size: {x: 0.48485768, y: 1.9488941}
   m_EdgeRadius: 0
+--- !u!50 &792122404
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792122400}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 0.94493604
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &820392365
 GameObject:
   m_ObjectHideFlags: 0
@@ -13940,7 +14006,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -552343973, guid: 79687e318d2943040b71578474ae9f4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19969,8 +20035,9 @@ GameObject:
   - component: {fileID: 1429307868}
   - component: {fileID: 1429307870}
   - component: {fileID: 1429307869}
+  - component: {fileID: 1429307871}
   m_Layer: 0
-  m_Name: sprTableBarricade_strip2_1 (2)
+  m_Name: Barricada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20004,7 +20071,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23710327, y: 0}
+  m_Offset: {x: -0.28166223, y: 0.01934719}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20015,7 +20082,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.27579346, y: 1.53125}
+  m_Size: {x: 0.3649114, y: 1.8877208}
   m_EdgeRadius: 0
 --- !u!212 &1429307870
 SpriteRenderer:
@@ -20069,6 +20136,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1429307871
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429307867}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 0.68885106
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1463160434
 GameObject:
   m_ObjectHideFlags: 0
@@ -27544,8 +27632,9 @@ GameObject:
   - component: {fileID: 2113134597}
   - component: {fileID: 2113134599}
   - component: {fileID: 2113134598}
+  - component: {fileID: 2113134600}
   m_Layer: 0
-  m_Name: sprTableBarricade_strip2_0 (1)
+  m_Name: Barricada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27579,7 +27668,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23907486, y: 0}
+  m_Offset: {x: -0.2866661, y: -0.023279727}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27590,7 +27679,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2718503, y: 1.53125}
+  m_Size: {x: 0.36703277, y: 1.9200791}
   m_EdgeRadius: 0
 --- !u!212 &2113134599
 SpriteRenderer:
@@ -27644,6 +27733,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &2113134600
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113134596}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 0.70473194
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &2119199191
 GameObject:
   m_ObjectHideFlags: 0
