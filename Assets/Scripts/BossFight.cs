@@ -20,37 +20,55 @@ public class BossFight : MonoBehaviour
     public bool isMoving = true;
     public bool hasRotated = false;
     public GameObject balaPJ1;
-    int VidasJefe = 5;
     bool canBeShoot = false;
     bool hasExecuted = false;
     bool hasExecuted2 = true;
+    public Animator animator;
+
+    bool isDeadBool = false;
+    public Text vidaText;
 
     void Start()
     {
         player = GameObject.Find("PJ1").transform;
         recargandoText.gameObject.SetActive(false);
-
+        dataKill.vidaJefe = 5;
+        vidaText.text = dataKill.vidaJefe.ToString();
+        animator.SetBool("isMoving", true);
         Invoke("StopMoving", Random.Range(3f, 5f));
+        animator = GetComponent<Animator>();
 
     }
 
     void Update()
     {
-        if(isMoving){
-            if(!hasExecuted){
-                ResetRotation();
-                hasExecuted = true;
-            }
-            MoveUpDown();
-        } else if(isMoving == false){
-            LookAtPlayer();
-            ShootToPlayer();
+        if (isDeadBool)
+    {
+        return;
+    }
+
+    if (isMoving)
+    {
+        if (!hasExecuted)
+        {
+            ResetRotation();
+            hasExecuted = true;
         }
-        if(!hasExecuted2){
-            isMoving = true;
-            Invoke("StopMoving", Random.Range(3f, 5f));
-            hasExecuted2 = true;
-        }
+        MoveUpDown();
+    }
+    else
+    {
+        LookAtPlayer();
+        ShootToPlayer();
+    }
+
+    if (!hasExecuted2)
+    {
+        isMoving = true;
+        animator.SetBool("isMoving", true);
+        Invoke("StopMoving", Random.Range(3f, 5f));
+        hasExecuted2 = true;
+    }
         
         
         
@@ -78,7 +96,7 @@ public class BossFight : MonoBehaviour
             }
             recargandoText.gameObject.SetActive(true);
             if(recargandoText.gameObject.activeSelf){
-                Debug.Log("Ahora le podes pegar");
+                //Debug.Log("Ahora le podes pegar");
                 canBeShoot = true;
                 Invoke("HideRecargandoText", 5f);
             }
@@ -126,7 +144,7 @@ public class BossFight : MonoBehaviour
     void StopMoving()
     {
         isMoving = false;
-        Debug.Log("SE PAROOO");
+        animator.SetBool("isMoving", false);
         
     }
     void HideRecargandoText()
@@ -147,10 +165,18 @@ public class BossFight : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision){
         
         if(collision.transform.name == "Bullet(Clone)" && canBeShoot){
-            VidasJefe--;
+            dataKill.vidaJefe--;
+            vidaText.text = dataKill.vidaJefe.ToString();
             Destroy(collision.gameObject);
             Debug.Log("le pegaste una");
-            Debug.Log(VidasJefe);
+            Debug.Log(dataKill.vidaJefe);
+            if(dataKill.vidaJefe == 0){
+                Debug.Log("Mataste al jefe");
+                isDeadBool = true;
+                animator.SetBool("IsDead", true);
+                vidaText.text = "Derrotado!";
+                GetComponent<Collider2D>().enabled = false;
+            }
         }
     }
 }

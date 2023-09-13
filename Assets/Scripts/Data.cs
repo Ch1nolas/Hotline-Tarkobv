@@ -10,4 +10,5 @@ public class Data : ScriptableObject
    public string previousSceneName;
    public bool isCutscene;
    public int vicoryPreviusScene;
+   public int vidaJefe = 5;
 }

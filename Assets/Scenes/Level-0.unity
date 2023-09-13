@@ -16665,6 +16665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 1301239866}
   canvas2: {fileID: 1420560805}
+  dataKill: {fileID: 11400000, guid: c343ebb8eb407e949b5338197934677f, type: 2}
   canAnim: {fileID: 2086457520}
 --- !u!61 &1452771540
 BoxCollider2D:

@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b704e45b58cc2cc4691c10de45df929a, type: 3}
   m_Name: DataKill
   m_EditorClassIdentifier: 
-  killCount: 1
+  killCount: 5
+  previousSceneName: Level-1-Part2
+  isCutscene: 0
+  vicoryPreviusScene: 2
+  vidaJefe: 2

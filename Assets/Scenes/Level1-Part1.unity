@@ -17630,7 +17630,7 @@ MonoBehaviour:
   Bullet: {fileID: 2028141909}
   start: {fileID: 1309328642}
   death: 0
-  dataKill: {fileID: 11400000, guid: c343ebb8eb407e949b5338197934677f, type: 2}
+  muzzleFlash: {fileID: 0}
 --- !u!61 &1137138710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21690,7 +21690,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 4f06bc9f3972c8f4fa3667073ed89173, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23106,7 +23106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028141909}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -43.92, y: 8.36, z: 0}
+  m_LocalPosition: {x: -43.92, y: 0.25, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23130,6 +23130,7 @@ MonoBehaviour:
   death: 0
   dataKill: {fileID: 11400000, guid: c343ebb8eb407e949b5338197934677f, type: 2}
   textBox: {fileID: 1863404443}
+  Blood: {fileID: 0}
 --- !u!61 &2028141913
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23471,11 +23472,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 0a5a9f19739190641bf38544ee0ba6ec, type: 2}
-  m_audioClip: {fileID: 8300000, guid: d7c8c4a7337217345a4e174540d131a0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 63fc6a511b23fe64ea01936dc1ecaceb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

@@ -12,6 +12,7 @@ public class Fire : MonoBehaviour
     public Text textBox;
 
     public GameObject Blood;
+    
 
     // Start is called before the first frame update
 
@@ -23,7 +24,7 @@ public class Fire : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2" && collision.transform.name != "Killa"){
+        if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2"){
             dataKill.killCount += 1;
             Destroy(collision.gameObject);
             Instantiate(Blood, transform.position, Quaternion.identity);
@@ -31,11 +32,10 @@ public class Fire : MonoBehaviour
             textBox.text = dataKill.killCount.ToString();
         }else if(collision.transform.name != "Killa"){
             Debug.Log("LE PEGASTE - CODIGO BALA");
-        }
-        else{
-            
+        }else{
             Destroy(gameObject);
         }
+        
         
         
 
