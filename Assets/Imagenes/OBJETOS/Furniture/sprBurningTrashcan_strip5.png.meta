@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,7 +139,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprBurningTrashcan_strip5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 42
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5636887, y: 0.351128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9b2c5fd2855574c9475ab5fb10dc65
+      internalID: -1315904035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBurningTrashcan_strip5_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 38
+        height: 40
+      alignment: 9
+      pivot: {x: 0.42038935, y: 0.351128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e812b9d2b042941a5716145378eeee
+      internalID: 1061476178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBurningTrashcan_strip5_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.46107936, y: 0.3423708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c60e70a437bb9449d3dde8dfa3e35a
+      internalID: 1628803142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBurningTrashcan_strip5_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5518946, y: 0.3423708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99307e364a5b740449e59159022ab886
+      internalID: 417825925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBurningTrashcan_strip5_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4516849, y: 0.3423708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3021a711c5f9e8e428d0c97c5ba8a146
+      internalID: -1731485012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +255,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprBurningTrashcan_strip5_0: -1315904035
+      sprBurningTrashcan_strip5_1: 1061476178
+      sprBurningTrashcan_strip5_2: -265437267
+      sprBurningTrashcan_strip5_3: 1628803142
+      sprBurningTrashcan_strip5_4: 1853628764
+      sprBurningTrashcan_strip5_5: 417825925
+      sprBurningTrashcan_strip5_6: -1731485012
+      sprBurningTrashcan_strip5_7: -1356340825
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

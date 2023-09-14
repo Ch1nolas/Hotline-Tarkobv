@@ -25,7 +25,7 @@ public class Fire : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision){
         Debug.Log(collision.transform.name);
-        if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2" && collision.transform.name != "Killa" && collision.transform.name != "Barricada"){
+        if(collision.gameObject != PJ1 && collision.transform.name != "Walls" && collision.transform.name != "Walls3" && collision.transform.name != "Walls2" && collision.transform.name != "Killa" && collision.transform.name != "Barricada" && collision.transform.name != "PuertaDerechaP" && collision.transform.name != "PuertaIzquierdaP"){
             dataKill.killCount += 1;
             Destroy(collision.gameObject);
             Instantiate(Blood, transform.position, Quaternion.identity);
