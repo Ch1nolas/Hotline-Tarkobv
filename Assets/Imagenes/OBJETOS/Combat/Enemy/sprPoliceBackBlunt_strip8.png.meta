@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,7 +139,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cc90343e7a70a40a84f10e60f7222d
+      internalID: 1278627609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75c4b6f6c838bc49b40274764c2982d
+      internalID: -674948636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 19
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9537a80433b21c341b7f0f8fac812bc7
+      internalID: 60295561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 17
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74294ad3414ecba4381127b562049595
+      internalID: -1135676442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 18
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b6b94e3719bd245b184f4b8ad8799c
+      internalID: 916604794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 17
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70324bff3edb62f47807cd90825c1d09
+      internalID: 2108852347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 5
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e68718ba2304224099b73ebddb48391
+      internalID: 1581775694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprPoliceBackBlunt_strip8_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 5
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fbaaff2ac3c1e4e89b91c503f6a7dc
+      internalID: -2014973338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +318,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprPoliceBackBlunt_strip8_0: 1278627609
+      sprPoliceBackBlunt_strip8_1: -674948636
+      sprPoliceBackBlunt_strip8_2: 60295561
+      sprPoliceBackBlunt_strip8_3: -1135676442
+      sprPoliceBackBlunt_strip8_4: 916604794
+      sprPoliceBackBlunt_strip8_5: 2108852347
+      sprPoliceBackBlunt_strip8_6: 1581775694
+      sprPoliceBackBlunt_strip8_7: -2014973338
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

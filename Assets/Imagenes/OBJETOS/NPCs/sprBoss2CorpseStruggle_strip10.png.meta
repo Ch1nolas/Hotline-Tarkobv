@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,7 +139,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62022e46bd25e243ad92db2730c17ac
+      internalID: 1341789785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 9
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2968deb142a4a440bf6632ab8fd18be
+      internalID: -1490728876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9a2e90456a43f4db2e5f5a3462c351
+      internalID: -1370270963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 6
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d058ce0aefebe4c4a896ebb4108105ea
+      internalID: 1351529964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 9
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a94029df3c8b14c8100409b11a6232
+      internalID: 1772512532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_5
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 12
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfe1db05a2acc749a624a1cf1cc5420
+      internalID: -1155127688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 36
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7d79695aee1fd4aadef3e70482c7f8
+      internalID: -1805752661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 12
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a78e5edd9ec4df4ca21565c53d1c64a
+      internalID: -1047257940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 15
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91b21eed5bd56d42a6eaa6175addb92
+      internalID: 1514430596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_9
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 15
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1675c2168ba6daa409820e74d2b3f960
+      internalID: 443954016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_10
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 36
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf01ec072eaaca419dbc2a164004f70
+      internalID: -293451441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 12
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caac32ebf135d4e46bc5fe323d7ee9a2
+      internalID: 1122337262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprBoss2CorpseStruggle_strip10_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6192a4b6264a2614b9f73f3f336ce8af
+      internalID: 104870744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +423,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprBoss2CorpseStruggle_strip10_0: 1341789785
+      sprBoss2CorpseStruggle_strip10_1: -1490728876
+      sprBoss2CorpseStruggle_strip10_10: -293451441
+      sprBoss2CorpseStruggle_strip10_11: 1122337262
+      sprBoss2CorpseStruggle_strip10_12: 104870744
+      sprBoss2CorpseStruggle_strip10_2: -1370270963
+      sprBoss2CorpseStruggle_strip10_3: 1351529964
+      sprBoss2CorpseStruggle_strip10_4: 1772512532
+      sprBoss2CorpseStruggle_strip10_5: -1155127688
+      sprBoss2CorpseStruggle_strip10_6: -1805752661
+      sprBoss2CorpseStruggle_strip10_7: -1047257940
+      sprBoss2CorpseStruggle_strip10_8: 1514430596
+      sprBoss2CorpseStruggle_strip10_9: 443954016
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
